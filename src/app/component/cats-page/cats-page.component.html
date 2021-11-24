@@ -1,0 +1,9 @@
+<div class="cats-container">
+
+  <app-circled-photo *ngFor="let cat of cats"
+                     [imageUrl]="cat.url"
+                     [itemId]="cat.id"
+                     (clickEventEmitter)="changeImage($event)"
+  ></app-circled-photo>
+
+</div>
