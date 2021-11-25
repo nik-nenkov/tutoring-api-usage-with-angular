@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 
-import {CatsService} from "../../service/cats.service";
-import {CatImageModel} from "../../data/cat-image.model";
+import {CatsService} from "../../../service/cats.service";
+import {CatImageModel} from "../../../data/cat-image.model";
 
 @Component({
   selector: 'app-cats-page',

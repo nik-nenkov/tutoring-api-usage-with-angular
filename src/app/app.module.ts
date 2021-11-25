@@ -5,7 +5,7 @@ import {RouterModule} from "@angular/router";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CatsPageComponent } from './component/cats-page/cats-page.component';
+import { CatsPageComponent } from './component/page/cats-page/cats-page.component';
 import { CircledPhotoComponent } from './component/basic/circled-photo/circled-photo.component';
 
 @NgModule({

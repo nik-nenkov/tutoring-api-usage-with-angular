@@ -1,4 +1,4 @@
-<div class="frame">
+<div [ngClass]="{'clickable' : itemId}" class="frame">
   <div class="container">
     <img [src]="imageUrl" alt="photo" class="photo"/>
     <div (click)="onImageClick()" class="shadow"></div>
