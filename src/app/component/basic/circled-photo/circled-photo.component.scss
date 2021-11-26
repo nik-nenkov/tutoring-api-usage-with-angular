@@ -22,7 +22,7 @@
       height: outer-diameter();
       border-radius: outer-diameter()/2;
       box-shadow: box-shadow(constants.$box_shadow_color_hover);
-      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+      transition: all 0.6s ease-in-out;
     }
 
     .shadow:hover {
