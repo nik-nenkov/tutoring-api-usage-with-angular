@@ -20,6 +20,9 @@ export class CatsPageComponent implements OnInit {
 
   changeImage(itemId: string) {
     console.log(itemId);
-    this.catsService.fetchRandomCat().subscribe(result => {this.cats = result;console.log(this.cats)});
+    this.catsService.fetchRandomCat().subscribe(result => {
+      this.cats = result;
+      console.log(this.cats)
+    });
   }
 }

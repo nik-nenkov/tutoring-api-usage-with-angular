@@ -1,12 +1,12 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 import {HttpClientModule} from "@angular/common/http";
 import {RouterModule} from "@angular/router";
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { CatsPageComponent } from './component/page/cats-page/cats-page.component';
-import { CircledPhotoComponent } from './component/basic/circled-photo/circled-photo.component';
+import {AppRoutingModule} from './app-routing.module';
+import {AppComponent} from './app.component';
+import {CatsPageComponent} from './component/page/cats-page/cats-page.component';
+import {CircledPhotoComponent} from './component/basic/circled-photo/circled-photo.component';
 
 @NgModule({
   declarations: [
@@ -24,4 +24,5 @@ import { CircledPhotoComponent } from './component/basic/circled-photo/circled-p
   bootstrap: [AppComponent],
   exports: [RouterModule, AppRoutingModule]
 })
-export class AppModule { }
+export class AppModule {
+}
